@@ -10,7 +10,7 @@
 <template>
 
 <div v-bind:id="element_id" class="ui fluid search selection dropdown">
-    <input type="hidden" v-bind:name="name" value="{{selection}}">
+    <input type="hidden" v-bind:name="name" v-bind:value="selection">
     <i class="dropdown icon"></i>
     <div class="default text">{{default_text}}</div>
     <div class="menu dropdown_menu">
